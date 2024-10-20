@@ -47,6 +47,7 @@ docker run hello-world
 
 #Now we can install Kubernetes on CentOS. First, we must create a new repository:
 sudo nano /etc/yum.repos.d/kubernetes.repo
+
 [kubernetes]
 name=Kubernetes
 baseurl=https://packages.cloud.google.com/yum/repos/kubernetes-el7-x86_64
