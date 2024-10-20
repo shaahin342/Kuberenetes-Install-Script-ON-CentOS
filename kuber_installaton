@@ -52,7 +52,7 @@ systemctl disable firewalld
 yum install socat -y 
 yum install -y iproute-tc
 
-kubeadm init --pod-network-cidr=192.168.0.0/16 --cri-socket=unix:///var/run/crio/crio.sock --ignore-preflight-errors=...
+kubeadm init --pod-network-cidr=192.168.0.0/16 --ignore-preflight-errors=...
 
 
 `````````````````````````````````````````````````````````````````````````````````````````````````````
